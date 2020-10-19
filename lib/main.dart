@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_os/Nav.dart';
+import 'Nav.dart';
 
 void main() {
-  runApp(MaterialApp(
-    home: MyApp(),
-  ));
+  runApp(
+    MaterialApp(
+      home: NavScreen(),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
@@ -47,10 +51,17 @@ class MyApp extends StatelessWidget {
                 color: Colors.white,
                 child: Row(
                   children: [
-                    SizedBox(width: 20,),
+                    SizedBox(
+                      width: 20,
+                    ),
                     Icon(Icons.phone_android),
-                    SizedBox(width: 20,),
-                    Text('+123456789321',style: TextStyle(fontSize: 20),)
+                    SizedBox(
+                      width: 20,
+                    ),
+                    Text(
+                      '+123456789321',
+                      style: TextStyle(fontSize: 20),
+                    )
                   ],
                 ),
               ),
@@ -63,10 +74,17 @@ class MyApp extends StatelessWidget {
                 color: Colors.white,
                 child: Row(
                   children: [
-                    SizedBox(width: 20,),
+                    SizedBox(
+                      width: 20,
+                    ),
                     Icon(Icons.email),
-                    SizedBox(width: 20,),
-                    Text('gjjaasd@gmail.com',style: TextStyle(fontSize: 20),)
+                    SizedBox(
+                      width: 20,
+                    ),
+                    Text(
+                      'gjjaasd@gmail.com',
+                      style: TextStyle(fontSize: 20),
+                    )
                   ],
                 ),
               ),
