@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_os/Nav.dart';
 import 'Nav.dart';
+import 'quiz/Home.dart';
 
 void main() {
   runApp(
     MaterialApp(
-      home: NavScreen(),
+      home: QuestionHome(),
     ),
   );
 }
